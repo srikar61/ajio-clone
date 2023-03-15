@@ -31,6 +31,10 @@ const routes: Routes = [
   {
     path:'deals',
     component:DealsComponent
+  },
+  {
+    path:'',
+    redirectTo:'/home',pathMatch:'full'
   }
 ];
 
