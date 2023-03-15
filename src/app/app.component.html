@@ -1,0 +1,35 @@
+
+    <mat-toolbar>
+        <div class="extra1"></div><div class="extra1"></div>
+      <span style="font-size: 30px;">AJIO</span>
+    </mat-toolbar>
+
+
+<mat-toolbar color="primary">
+    <button mat-icon-button (click)="nav1.toggle()"><mat-icon>menu</mat-icon></button>
+    
+    <button mat-raised-button color="accent"><a routerLink="home" style="text-decoration: none;">home</a></button>
+    <button mat-raised-button color="accent"><a routerLink="about" style="text-decoration: none;">about</a></button>
+    <button mat-raised-button color="accent"><a routerLink="contact" style="text-decoration: none;">contact</a></button>
+    <button mat-raised-button color="accent"><a routerLink="deals" style="text-decoration: none;">deals</a></button>
+    <div class="extra"></div>
+    
+</mat-toolbar>
+
+
+<mat-sidenav-container class="example-container" >
+    
+    <mat-sidenav opened="false" #nav1>
+        <a routerLink="home" color="primary" style="text-decoration: none;"><button mat-button><mat-icon >home</mat-icon><span>home</span></button></a>
+        <a routerLink="profile" color="primary" style="text-decoration: none;"><button mat-button><mat-icon >account_circle</mat-icon><span>profile</span></button></a>
+        <a routerLink="contact" color="primary" style="text-decoration: none;"><button mat-button><mat-icon >contact_support</mat-icon><span>contact</span></button></a>
+        <a routerLink="about" color="primary" style="text-decoration: none;"><button mat-button><mat-icon >info</mat-icon><span>about</span></button></a>
+    </mat-sidenav>
+    
+    <mat-sidenav-content><router-outlet></router-outlet></mat-sidenav-content>
+
+</mat-sidenav-container>
+  
+  
+  
+   

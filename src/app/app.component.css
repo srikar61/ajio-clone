@@ -1,0 +1,24 @@
+.extra{
+    flex: 1 1 auto;
+}
+.logo{
+    margin-left: 20px;
+}
+.example-container {
+    position: absolute;
+    top: 120px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+  }
+  .mat-sidenav{
+    width: 150px;
+    padding: 20px;
+    background-color: rgb(197, 197, 197);
+    
+  }
+  .extra1{
+    padding-left: 300px;
+  }
+  html {   background-color: white; }
