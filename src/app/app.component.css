@@ -5,12 +5,13 @@
     margin-left: 20px;
 }
 .example-container {
-    position: absolute;
-    top: 120px;
+  position: relative;
+  top: 0px;
     bottom: 0;
     left: 0;
     right: 0;
     background: #eee;
+    max-width: 100%;
   }
   .mat-sidenav{
     width: 150px;
@@ -22,3 +23,10 @@
     padding-left: 300px;
   }
   html {   background-color: white; }
+.sp1{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  font-size: 35px;
+  
+}
