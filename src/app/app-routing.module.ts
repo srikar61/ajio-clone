@@ -47,8 +47,8 @@ const routes: Routes = [
     component:SignupComponent
   },
   {
-    path:'**',
-    redirectTo:'home'
+    path:'/',
+    redirectTo:'login'
   }
 ];
 
