@@ -18,10 +18,12 @@ export class LoginComponent implements OnInit{
     pwd:new FormControl()
   })
   checkuser(){
-    alert();
+    
     var res= this.srvc.validateuser(this.loginform.value["uname"],this.loginform.value['pwd']);
     if(res){
+      
     this.rtr.navigate(["home"]);    
+    alert("login successful");
     }
     else{
       alert("invalid credantials");
