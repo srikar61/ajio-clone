@@ -25,6 +25,12 @@ import { ProfileComponent } from './profile/profile.component';
 import { DealsComponent } from './deals/deals.component';
 import { SliderModule } from 'angular-image-slider';
 import {MatCardModule} from '@angular/material/card';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+
+
+
 
 
 @NgModule({
@@ -35,7 +41,9 @@ import {MatCardModule} from '@angular/material/card';
     ContactComponent,
     DatepickerComponent,
     ProfileComponent,
-    DealsComponent
+    DealsComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
@@ -57,7 +65,11 @@ import {MatCardModule} from '@angular/material/card';
     MatSidenavModule,
     MatButtonModule,
     SliderModule,
-    MatCardModule
+    MatCardModule,
+    FlexLayoutModule,
+    
+   
+    
     
   ],
   providers: [],

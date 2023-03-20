@@ -36,4 +36,6 @@
 }
 .bt3{
   float: left;
+  justify-content: space-between;
+  padding-right: 1%;
 }
