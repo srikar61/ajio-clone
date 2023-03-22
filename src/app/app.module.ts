@@ -28,11 +28,6 @@ import {MatCardModule} from '@angular/material/card';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
-<<<<<<< HEAD
-import { ProductsComponent } from './products/products.component';
-import { CheckoutComponent } from './checkout/checkout.component';
-=======
->>>>>>> a940dffaab7f6a77e540341adec49df36c132213
 
 
 
@@ -48,13 +43,7 @@ import { CheckoutComponent } from './checkout/checkout.component';
     ProfileComponent,
     DealsComponent,
     LoginComponent,
-<<<<<<< HEAD
-    SignupComponent,
-    ProductsComponent,
-    CheckoutComponent
-=======
     SignupComponent
->>>>>>> a940dffaab7f6a77e540341adec49df36c132213
   ],
   imports: [
     BrowserModule,
