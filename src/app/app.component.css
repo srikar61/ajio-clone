@@ -38,6 +38,7 @@
   float: left;
   justify-content: space-between;
   padding-right: 1%;
+<<<<<<< HEAD
 }
 .icon1{
   position:relative;
@@ -47,4 +48,6 @@
   cursor: pointer;
   text-decoration: none;
   color: #eee;
+=======
+>>>>>>> a940dffaab7f6a77e540341adec49df36c132213
 }
