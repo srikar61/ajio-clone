@@ -1,0 +1,50 @@
+.extra{
+    flex: 1 1 auto;
+}
+.logo{
+    margin-left: 20px;
+}
+.example-container {
+  position: relative;
+  top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+    max-width: 100%;
+  }
+  .mat-sidenav{
+    width: 150px;
+    padding: 20px;
+    background-color: rgb(197, 197, 197);
+    
+  }
+  .extra1{
+    padding-left: 300px;
+  }
+  html {   background-color: white; }
+.sp1{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  font-size: 35px;
+  
+}
+
+.spacer{
+  flex:1 1 auto;
+}
+.bt3{
+  float: left;
+  justify-content: space-between;
+  padding-right: 1%;
+}
+.icon1{
+  position:relative;
+  display:block;
+  width:30px;
+  margin-left: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #eee;
+}
