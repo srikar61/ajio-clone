@@ -3747,7 +3747,7 @@ input[type=button].btn-block {
 .custom-file-input:disabled ~ .custom-file-label {
   background-color: #e4e4e4;
 }
-.custom-file-input:lang(en) ~ .custom-file-label::after {
+.custom-file-input:lang ~ .custom-file-label::after {
   content: "Browse";
 }
 .custom-file-input ~ .custom-file-label[data-browse]::after {
