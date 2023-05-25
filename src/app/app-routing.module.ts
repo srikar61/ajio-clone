@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { ContactComponent } from './contact/contact.component';
-import { DatepickerComponent } from './datepicker/datepicker.component';
+
 import { DealsComponent } from './deals/deals.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
@@ -24,10 +24,7 @@ const routes: Routes = [
     path:'contact',
     component:ContactComponent
   },
-  {
-    path:'datepicker',
-    component:DatepickerComponent
-  },
+  
   {
     path:'profile',
     component:ProfileComponent

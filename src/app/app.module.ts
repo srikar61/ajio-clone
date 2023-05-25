@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-import { DatepickerComponent } from './datepicker/datepicker.component';
+
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatFormFieldModule} from '@angular/material/form-field';
@@ -39,7 +39,7 @@ import { SignupComponent } from './signup/signup.component';
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    DatepickerComponent,
+   
     ProfileComponent,
     DealsComponent,
     LoginComponent,
