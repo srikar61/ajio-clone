@@ -17,7 +17,7 @@
     width: 150px;
     padding: 20px;
     background-color: rgb(197, 197, 197);
-    
+    min-height: 100vh;
   }
   .extra1{
     padding-left: 300px;
@@ -41,7 +41,7 @@
 }
 .icon2{
   position:relative;
-  display:block;
+  display:inline-block;
   width:30px;
   margin-left: 10px;
   cursor: pointer;

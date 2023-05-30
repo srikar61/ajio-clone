@@ -1,1 +1,18 @@
-<p>signup works!</p>
+
+<div class="wrapper">
+    <h2 style="font-size: xx-large;">Signup</h2>
+    <form (ngSubmit)="onSubmit()">
+      <div style="padding: 20px;display: block;">
+        <label>Username:</label>
+        <input type="text" [(ngModel)]="username" name="username" required>
+      </div>
+      <div style="padding: 10px;display: block;">
+        <label>Password:</label>
+        <input type="password" [(ngModel)]="password" name="password" required>
+      </div>
+      <div style="padding: 10px;justify-content: center;align-items: center;display: block;margin: auto;">
+        <button type="submit">Signup</button>
+      </div>
+    </form>
+  </div>
+  

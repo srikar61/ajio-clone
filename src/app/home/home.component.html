@@ -35,8 +35,26 @@
 <a href="/products">
   <img class="img1" src="https://assets.ajio.com/cms/AJIO/WEB/15032023-UHP-D-UHPwomen-p3-gap-starting599.jpg" >
 </a> 
+
+
   <a href="/products"> 
   <img class="img1" src="https://assets.ajio.com/cms/AJIO/WEB/15032023-UHP-D-UHPwomen-p1-homecentre-starting99.jpg" >
 </a> 
+<div class="card-container">
+  <button class="nav-button left" (click)="scrollLeft()">&lt;</button>
+  <div class="cards-wrapper" [class.overflow]="isOverflow">
+    <div class="card" *ngFor="let product of products" (mouseover)="hoverCard(true)" (mouseleave)="hoverCard(false)">
+      <div class="card-content">
+        <img [src]="product.imageUrl" alt="Product Image" class="card-image">
+        
+        <p class="card-price">{{ product.price }}</p>
+        <button class="card-button">Shop Now</button>
+      </div>
+    </div>
+  </div>
+  <button class="nav-button right" (click)="scrollRight()">&gt;</button>
+</div>
+
   <a href="/products">
   <img class="img1" src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-HotTrending-Footprints-Upto70.jpg" ></a>
+

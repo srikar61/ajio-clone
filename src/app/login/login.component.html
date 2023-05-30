@@ -1,27 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head><meta charset="utf-8">
-
-<title> CSS Login Screen Tutorial </title>
-</head>
-<body>
-  <body>
-    <div class="login-page">
-      <div class="form">
-        <div class="login">
-          <div class="login-header">
-            <h3>LOGIN</h3>
-            <p>Please enter your credentials to login.</p>
-          </div>
-        </div>
-        <form class="login-form" [formGroup]="loginform" (ngSubmit)="checkuser()">
-          <input type="text" placeholder="username" name="" formControlName="uname"/>
-          <input type="password" placeholder="password" formControlName="pwd"/>
-          <button type="submit">login</button>
-          <p class="message">Not registered? <a href="#">Create an account</a></p>
-        </form>
-      </div>
+<div class="wrapper">
+  <h2 style="font-size: 35px;">Login</h2>
+  <form (ngSubmit)="onSubmit()">
+    <div class="div1">
+      <label>Username:</label>
+      <input type="text" [(ngModel)]="username" name="username" required>
     </div>
-</body>
-</body>
-</html>
+    <div class="div1">
+      <label>Password:</label>
+      <input type="password" [(ngModel)]="password" name="password" required>
+    </div>
+    <div class="div1">
+      <button type="submit">Login</button>
+    </div>
+  </form>
+  <p *ngIf="loginError" class="error-message">Invalid username or password.</p>
+  <p>Don't have an account? <a routerLink="/signup">Sign up</a></p>
+</div>
